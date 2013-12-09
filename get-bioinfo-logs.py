@@ -27,7 +27,7 @@ def get_login_pass(secretfile):
     """
     Get the login & password from secretfile.
     Secretfile just contains log & pass formatted in JSON like that: 
-    {'log': 'thelogin', 'pwd': 'thepassword'}
+    {"log": "thelogin", "pwd": "thepassword"}
     """
     conf = None
     with open(secretfile) as infile:
